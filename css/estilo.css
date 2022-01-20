@@ -21,6 +21,35 @@ body{
 #area-logo, #area-menu{
     padding: 10px;
 }
+/* #area-principal, #area-postagens{
+    background: white;
+} */
+#area-principal{
+    /* background: white; */
+    width: 920px;/*tabalho padrao bastante utilizado no mercado atualmente.*/
+    margin: 10px auto;/* 10px acima e abaixo(top e botton) e automatica para as laterais, ou seja, centraliza o conteudo*/
+    /*obs: vai centralizar com a janela do pc totalmente aberta com os 920px*/
+}
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+#rodape{
+    
+    clear: both;/*importantissimo colocar isso, pq como esta proximo de elementos que usam float, acabaria se misturando, como o clear ele limpa.*/
+    padding: 15px;
+    background: #CCC;
+}
 
 /*
 **** Formatações do menu ****
@@ -49,3 +78,10 @@ h1{
     color: white;
 }
 
+
+
+/*
+***** Anotaçoes diversas *****
+
+obs1: utilizamos o float como forma de distribuir os dois elementos area-postagens e area-lateral do conteudo principal da pagina. Lembrando que os elementos com float sao distribuidos de acordo com os seu conteiner pai.
+*/
