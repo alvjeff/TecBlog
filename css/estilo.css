@@ -1,0 +1,11 @@
+/*limpando as formatacoes padroes*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;/*corresponde a 16px, o padrao que vem nos documentos*/
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
